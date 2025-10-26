@@ -25,12 +25,29 @@
     p { line-height: 1.8; }
     a { color: #e74c3c; text-decoration: none; }
     a:hover { text-decoration: underline; }
+
+    /* 给 GIF 加点样式 */
+    .gif-image {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+      border-radius: 10px;
+      margin: 20px 0;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>👋 你好，我是 xx</h1>
-    <p>这是一个学术成果展示的个人网站。</p>
+    <p>这是一个学术成果展示的个人网站，尽情期待！</p>
+
+    <!-- 插入 GIF 动图 -->
+    <img src="./转圈.gif" alt="GIF 动画演示" class="gif-image">
+
+    <!-- 如果你把 GIF 放在 images 文件夹里，就写： -->
+    <!-- <img src="./images/demo.gif" alt="GIF 动画演示" class="gif-image"> -->
+
     <!-- <p><a href="https://github.com/zhangsan" target="_blank">👉 查看我的 GitHub</a></p> -->
   </div>
 </body>
